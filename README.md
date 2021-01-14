@@ -4,6 +4,6 @@
 
 Here, you can find a website that I designed and coded from scratch. It displays a little bit about myself, a portfolio of my projects, extracurricular activities, and a contact page.
 
-Check it out here [colemanulry.com](https://colemanulry.com)
+Check it out here: [colemanulry.com](https://colemanulry.com)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
