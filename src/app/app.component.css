@@ -1,0 +1,472 @@
+.container {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  top: 0;
+}
+
+.name {
+  float: left;
+  padding-left: 20px;
+  padding-bottom: 2px;
+  padding-top: 3vh;
+}
+
+.deschead {
+  float: right;
+  padding-right: 20px;
+  padding-top: 3vh;
+}
+
+h3 {
+  color: black;
+  text-decoration: none;
+  line-height: 1.5vh;
+}
+
+h3:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.hyper {
+  text-decoration: none;
+}
+
+.line {
+  border: 1px solid black;
+  width: 100%;
+}
+
+mat-tab-group {
+  width: 100%;
+}
+
+mat-tab {
+  position: fixed;
+  top: 20%;
+}
+
+mat-card {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  z-index: 999;
+}
+
+mat-card-title {
+  margin-top: 15px;
+}
+
+.box {
+  box-shadow: 0 10px 30px 4px gray;
+}
+
+.box2 {
+  box-shadow: 0 10px 30px 4px gray;
+  width: 60%;
+}
+
+.lastbox {
+  box-shadow: 0 10px 30px 4px gray;
+  margin-bottom: 10vh;
+}
+
+img {
+  width: 40%;
+  height: 40%;
+}
+
+.mer {
+  padding-left: 3vh;
+  padding-top: 3vh;
+}
+
+.mercuryimg {
+  width: 120px;
+  height: 120px;
+  margin-top: 20%;
+}
+
+.rmcimgCon {
+  height: 100%;
+}
+
+.rmcimg {
+  color: black;
+  width: 120px;
+  height: 50px;
+  margin-top: 50%;
+}
+
+.chatTitle {
+  font-size: 22px;
+  width: 135px;
+  margin-top: 30%;
+}
+
+.homeText {
+  padding-left: 2vh;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.descText {
+  font-size: 20px;
+  padding-left: 2vh;
+  padding-top: 20px;
+}
+
+.portHeader {
+  display: flex;
+  justify-content: center;
+  padding-top: 4vh;
+}
+
+.spacing {
+  line-height: 22px;
+}
+
+.mText {
+  padding-right: 3vh;
+  padding-bottom: 3vh;
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+.mTitle {
+  padding-right: 3vh;
+  padding-top: 3vh;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.mTitle:hover {
+  padding-right: 3vh;
+  padding-top: 3vh;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  color: gray;
+}
+
+.rmcText {
+  padding-left: 3vh;
+  padding-right: 3vh;
+  padding-bottom: 3vh;
+  font-size: 15px;
+}
+
+.rmcTitle {
+  padding-left: 3vh;
+  padding-right: 3vh;
+  padding-top: 3vh;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.rmcTitle:hover {
+  padding-left: 3vh;
+  padding-right: 3vh;
+  padding-top: 3vh;
+  font-size: 18px;
+  font-weight: 500;
+  color: gray;
+}
+
+.caText {
+  position: relative;
+  padding: 3vh;
+  font-size: 15px;
+  margin-left: -13px;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.centerIcon {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+
+.centerIcon:hover {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: gray;
+}
+
+.right {
+  border: 5px solid black;
+}
+
+.skiingimg {
+  height: 40%;
+  width: 53%;
+}
+
+.conTitle {
+  padding-right: 3vh;
+  padding-top: 3vh;
+  margin-left: 4vh;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+}
+
+.fab {
+  margin-top: 8px;
+  margin-left: 4vh;
+  color: black;
+  display: inline-block;
+}
+
+.insta {
+  margin-left: 2px;
+}
+
+.instaCon {
+  margin-left: 70px;
+  margin-top: -30px;
+}
+
+.user {
+  display: inline-block;
+  margin-left: 14px;
+  color: black;
+}
+.user:hover {
+  display: inline-block;
+  margin-left: 14px;
+  color: gray;
+}
+
+.link {
+  margin-left: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.fa-linkedin:hover {
+  color: gray;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-github:hover {
+  color: gray;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+.fa-instagram:hover {
+  color: gray;
+}
+
+.git {
+  margin-bottom: 19px;
+}
+
+.picContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame1 {
+  height: 80%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+.frame2 {
+  height: 60%;
+  width: 53%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.frame3 {
+  max-height: 70%;
+  max-width: 55%;
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+.frame4 {
+  max-height: 50%;
+  max-width: 23%;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.frame5 {
+  max-height: 63%;
+  max-width: 35%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.frame6 {
+  max-height: 72%;
+  max-width: 46%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.frame7 {
+  max-height: 55%;
+  max-width: 30%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.frame8 {
+  max-height: 76%;
+  max-width: 52%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.frame9 {
+  max-height: 76%;
+  max-width: 70%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.frame10 {
+  max-height: 75%;
+  max-width: 85%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.frame11 {
+  max-height: 45%;
+  max-width: 45%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.frame12 {
+  max-height: 45%;
+  max-width: 45%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.frame13 {
+  max-height: 35%;
+  max-width: 27%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.frame14 {
+  max-height: 40%;
+  max-width: 62%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.frame15 {
+  max-height: 80%;
+  max-width: 88%;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.picture {
+  height: 100%;
+  width: 100%;
+}
+
+.youth {
+  margin-top: 60px;
+}
+
+.youthTitle {
+  display: block;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.subt {
+  display: flex;
+  justify-content: center;
+  padding-top: 1px;
+  letter-spacing: 1px;
+}
+
+.new {
+  color: black;
+  margin-top: -9px;
+  margin-left: 12px;
+}
+
+.footText {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+  float: inline-end;
+}
+
+footer {
+  width: 100%;
+  height: 20px;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
